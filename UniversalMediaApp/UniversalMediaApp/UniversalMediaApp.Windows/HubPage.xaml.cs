@@ -49,6 +49,7 @@ namespace UniversalMediaApp
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
             this.Loaded += OnLoaded;
+            //TODO: this should be refactored!!!!
         }
 
         private void OnLoaded(object sender, RoutedEventArgs routedEventArgs)
