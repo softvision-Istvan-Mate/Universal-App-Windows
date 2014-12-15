@@ -48,17 +48,6 @@ namespace UniversalMediaApp
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
-            this.Loaded += OnLoaded;
-            this.Loaded += HubPage_Loaded;
-        }
-
-        void HubPage_Loaded(object sender, RoutedEventArgs e)
-        {
-        }
-
-        private void OnLoaded(object sender, RoutedEventArgs routedEventArgs)
-        {
-            //Todo: something
         }
 
         /// <summary>
